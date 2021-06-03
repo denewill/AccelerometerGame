@@ -1,0 +1,48 @@
+/**
+ ============================================================================
+ * @file  pit-example1.cpp (180.ARM_Peripherals/Snippets/)
+ * @brief Programmable Interrupt Timer (PIT) Example
+ * @author   podonoghue
+ * Toggles LED use PIT for delay.
+ * This example uses busy-waiting so it not a practical solution
+============================================================================
+ */
+#include "hardware.h"
+#include "pit.h"
+
+using namespace USBDM;
+
+// Connection mapping - change as required
+// Led is assumed active-low
+using Timer        = Pit;
+using TimerChannel = Timer::Channel<0>;
+
+void initializePIT() {
+   // Enable PIT
+   Timer::configure();
+
+   // Check for errors so far
+   checkError();
+}
+
+void SpeedAdvance(unsigned score)
+{
+	// Delay in ticks using channel 0
+    // This is a busy-waiting loop!
+	switch (score/10)
+	{
+	case 0:
+	case 1: TimerChannel::delay(100*ms);
+			break;
+	case 2: TimerChannel::delay(50*ms);
+			break;
+	case 3: TimerChannel::delay(20*ms);
+			break;
+	case 4: TimerChannel::delay(10*ms);
+			break;
+	case 5: TimerChannel::delay(5*ms);
+			break;
+	default: TimerChannel::delay(5*ms);
+			break;
+	}
+}

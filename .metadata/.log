@@ -1,0 +1,256 @@
+!SESSION 2019-10-26 12:54:52.891 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective org.eclipse.cdt.ui.CPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.cdt.ui.CPerspective
+
+!ENTRY net.sourceforge.usbdm.jni 1 0 2019-10-26 13:10:43.489
+!MESSAGE os.name      => Windows 10
+java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+os.arch      => amd64
+Loading library name = x86_64/libwinpthread-1
+Loading library name = x86_64/libgcc_s_seh-1
+Loading library name = x86_64/libstdc++-6
+Loading library name = x86_64/usbdm.4
+Loading library name = x86_64/usbdm-jni.4
+
+
+!ENTRY net.sourceforge.usbdm.constants 1 0 2019-10-26 13:10:43.541
+!MESSAGE UsbdmSharedSettings.getSharedSettings() - loaded settings from file 'C:\Users\USER\AppData\Roaming\usbdm\UsbdmEclipseSharedSettings.xml'
+
+
+!ENTRY net.sourceforge.usbdm.cdt.ui 1 0 2019-10-26 14:57:25.542
+!MESSAGE fParamMap
+================================================
+bdmTargetVdd                                                 => BDM_TARGET_VDD_3V3
+buildToolsBinPath                                            => ${usbdm_armLtd_arm_path}
+buildToolsId                                                 => net.sourceforge.usbdm.cdt.toolchain.processor.usbdmConfigure.armLtdGnuToolsForARM
+cDeviceParameters                                            => 
+clockTrimFrequency                                           => 0
+cpp.peripheral.external.elecfreaks-lcd                       => true
+cpp.peripheral.external.gps                                  => true
+cpp.peripheral.external.max30100                             => true
+cpp.peripheral.internal.adc                                  => true
+cpp.peripheral.internal.ftm                                  => true
+cpp.peripheral.internal.i2c                                  => true
+cpp.peripheral.internal.lptmr                                => true
+cpp.peripheral.internal.pit                                  => true
+cpp.peripheral.internal.spi                                  => true
+cpp.peripheral.subfamily                                     => MK20D5
+demo.cpp.console                                             => USBDM::Uart##0
+demo.cpp.led                                                 => GpioA<2,ActiveLow>
+demo.lcd.elecfreaks.backlight                                => GpioC<2>
+demo.lcd.elecfreaks.backlight.ftm                            => Ftm0<1>
+demo.lcd.elecfreaks.cs                                       => GpioA<2>
+demo.lcd.elecfreaks.reset                                    => GpioA<12>
+eraseMethod                                                  => TargetDefault
+externalHeaderFile                                           => C:/Program Files (x86)/pgo/USBDM 4.12.1.262/Stationery/Project_Headers/MK20D5.h
+externalHeaderFilename                                       => MK20D5.h
+externalVectorTable                                          => 
+gdbCommand                                                   => ${usbdm_armLtd_arm_prefix}gdb
+hasCCNature                                                  => true
+interfaceType                                                => T_ARM
+linkerFlashSize                                              => 0x20000
+linkerHeapSize                                               => 0x1000
+linkerRamSize                                                => 0x2000
+linkerStackSize                                              => 0x1000
+nvmClockTrimLocation                                         => 0
+outputType                                                   => net.sourceforge.usbdm.cdt.newProjectType.exe
+pathSeparator                                                => \
+projectHomePath                                              => 
+projectMainlineFile                                          => main.cpp
+projectName                                                  => lab5
+projectOptionValue.CMSIS-RTOS                                => false
+projectOptionValue.CPP-abstraction                           => true
+projectOptionValue.CPP-abstraction-EPAPER                    => false
+projectOptionValue.CPP-abstraction-GPS                       => false
+projectOptionValue.CPP-abstraction-LCD                       => false
+projectOptionValue.CPP-abstraction-MAX30100                  => false
+projectOptionValue.CPP-abstraction-NRF24L01                  => false
+projectOptionValue.CPP-abstraction-PCA9685                   => false
+projectOptionValue.CPP-abstraction-PN532                     => false
+projectOptionValue.CPP-abstraction-ht16k33-14-segment        => false
+projectOptionValue.CPP-abstraction-sht14-humidity            => false
+projectOptionValue.FRDM-Blinky                               => false
+projectOptionValue.FreeRTOS                                  => false
+projectOptionValue.Kinetis-PE                                => false
+resetMethod                                                  => TargetDefault
+semiHosting                                                  => false
+targetDevice                                                 => FRDM_K20D50M
+targetDeviceFamily                                           => CortexM4
+targetDeviceName                                             => frdm_k20d50m
+targetDeviceSubFamily                                        => MK20D5
+useFloatingpointInPrintf                                     => false
+useFloatingpointInScanf                                      => false
+================================================
+
+
+!ENTRY org.eclipse.cdt.core 1 0 2019-10-26 14:57:58.681
+!MESSAGE Indexed 'lab5' (15 sources, 196 headers) in 8.83 sec: 18,458 declarations; 37,816 references; 0 unresolved inclusions; 1 syntax errors; 49 unresolved names (0.087%)
+
+!ENTRY net.sourceforge.usbdm.gdb.ui 1 0 2019-10-26 17:10:23.803
+!MESSAGE Starting GDB server
+
+!ENTRY net.sourceforge.usbdm.gdb.ui 1 0 2019-10-26 17:39:34.342
+!MESSAGE Starting GDB server
+
+!ENTRY org.gna.eclox.core 4 0 2019-10-26 19:14:31.786
+!MESSAGE Exception caught. java.io.IOException: Cannot run program "doxygen": CreateProcess error=2, The system cannot find the file specified
+!STACK 0
+java.io.IOException: Cannot run program "doxygen": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at eclox.core.doxygen.Doxygen.getVersion(Doxygen.java:141)
+	at eclox.core.ui.DefaultDoxygenFieldEditor.updateItem(DefaultDoxygenFieldEditor.java:156)
+	at eclox.core.ui.DefaultDoxygenFieldEditor.addItem(DefaultDoxygenFieldEditor.java:132)
+	at eclox.core.ui.DefaultDoxygenFieldEditor.doLoad(DefaultDoxygenFieldEditor.java:358)
+	at org.eclipse.jface.preference.FieldEditor.load(FieldEditor.java:497)
+	at org.eclipse.jface.preference.FieldEditorPreferencePage.initialize(FieldEditorPreferencePage.java:309)
+	at org.eclipse.jface.preference.FieldEditorPreferencePage.createContents(FieldEditorPreferencePage.java:234)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:244)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1429)
+	at org.eclipse.jface.preference.PreferenceDialog$8.run(PreferenceDialog.java:1196)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1188)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:675)
+	at org.eclipse.jface.preference.PreferenceDialog$5.lambda$0(PreferenceDialog.java:660)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.jface.preference.PreferenceDialog$5.selectionChanged(PreferenceDialog.java:657)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:874)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:871)
+	at org.eclipse.jface.viewers.StructuredViewer.handlePostSelect(StructuredViewer.java:1240)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$0(StructuredViewer.java:1263)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.jface.util.OpenStrategy.firePostSelectionEvent(OpenStrategy.java:265)
+	at org.eclipse.jface.util.OpenStrategy.access$5(OpenStrategy.java:260)
+	at org.eclipse.jface.util.OpenStrategy$1.lambda$1(OpenStrategy.java:430)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.dialogs.WorkbenchPreferenceDialog.open(WorkbenchPreferenceDialog.java:214)
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:568)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:400)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4131)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3944)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3547)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1449)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 68 more
+
+!ENTRY net.sourceforge.usbdm.gdb.ui 1 0 2019-10-27 16:02:34.683
+!MESSAGE Starting GDB server
+
+!ENTRY org.eclipse.cdt.dsf.gdb.ui 4 0 2019-10-27 16:41:54.137
+!MESSAGE Service is not available.
+!SESSION 2019-10-27 17:10:57.947 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective org.eclipse.cdt.ui.CPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.cdt.ui.CPerspective
+
+!ENTRY net.sourceforge.usbdm.jni 1 0 2019-10-27 17:12:15.327
+!MESSAGE os.name      => Windows 10
+java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+os.arch      => amd64
+Loading library name = x86_64/libwinpthread-1
+Loading library name = x86_64/libgcc_s_seh-1
+Loading library name = x86_64/libstdc++-6
+Loading library name = x86_64/usbdm.4
+Loading library name = x86_64/usbdm-jni.4
+
+
+!ENTRY net.sourceforge.usbdm.constants 1 0 2019-10-27 17:12:15.332
+!MESSAGE UsbdmSharedSettings.getSharedSettings() - loaded settings from file 'C:\Users\USER\AppData\Roaming\usbdm\UsbdmEclipseSharedSettings.xml'
+
+!SESSION 2019-10-28 12:32:41.944 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective org.eclipse.cdt.ui.CPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.cdt.ui.CPerspective
+
+!ENTRY net.sourceforge.usbdm.jni 1 0 2019-10-28 12:35:11.937
+!MESSAGE os.name      => Windows 10
+java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+os.arch      => amd64
+Loading library name = x86_64/libwinpthread-1
+Loading library name = x86_64/libgcc_s_seh-1
+Loading library name = x86_64/libstdc++-6
+Loading library name = x86_64/usbdm.4
+Loading library name = x86_64/usbdm-jni.4
+
+
+!ENTRY net.sourceforge.usbdm.constants 1 0 2019-10-28 12:35:12.003
+!MESSAGE UsbdmSharedSettings.getSharedSettings() - loaded settings from file 'C:\Users\USER\AppData\Roaming\usbdm\UsbdmEclipseSharedSettings.xml'
+
+
+!ENTRY net.sourceforge.usbdm.gdb.ui 1 0 2019-10-28 12:35:39.977
+!MESSAGE Starting GDB server
+
+!ENTRY org.eclipse.cdt.dsf.gdb.ui 4 0 2019-10-28 12:36:40.806
+!MESSAGE Service is not available.
+
+!ENTRY org.eclipse.cdt.dsf.gdb.ui 4 0 2019-10-28 12:36:47.446
+!MESSAGE Service is not available.
+!SESSION 2019-11-02 01:00:35.375 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -perspective org.eclipse.cdt.ui.CPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective org.eclipse.cdt.ui.CPerspective
+
+!ENTRY net.sourceforge.usbdm.jni 1 0 2019-11-02 03:24:19.611
+!MESSAGE os.name      => Windows 10
+java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+os.arch      => amd64
+Loading library name = x86_64/libwinpthread-1
+Loading library name = x86_64/libgcc_s_seh-1
+Loading library name = x86_64/libstdc++-6
+Loading library name = x86_64/usbdm.4
+Loading library name = x86_64/usbdm-jni.4
+
+
+!ENTRY net.sourceforge.usbdm.constants 1 0 2019-11-02 03:24:19.675
+!MESSAGE UsbdmSharedSettings.getSharedSettings() - loaded settings from file 'C:\Users\USER\AppData\Roaming\usbdm\UsbdmEclipseSharedSettings.xml'
+

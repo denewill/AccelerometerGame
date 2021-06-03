@@ -1,0 +1,7 @@
+/*
+ * PITlab5.h
+ *
+ * MCP23008 I/O port expander header file
+ */
+#ifndef SOURCES_PITLAB5_H_
+#define SOURCES_PITLAB5_H_

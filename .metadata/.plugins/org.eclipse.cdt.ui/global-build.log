@@ -1,0 +1,1349 @@
+17:05:42 **** Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Startup_Code/console.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Startup_Code/console.o" -MMD -MP -MF"Startup_Code/console.d" -MT"Startup_Code/console.o"  -o "Startup_Code/console.o" ../Startup_Code/console.cpp
+'Finished building: ../Startup_Code/console.cpp'
+' '
+'Building file: ../Startup_Code/mcg.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Startup_Code/mcg.o" -MMD -MP -MF"Startup_Code/mcg.d" -MT"Startup_Code/mcg.o"  -o "Startup_Code/mcg.o" ../Startup_Code/mcg.cpp
+'Finished building: ../Startup_Code/mcg.cpp'
+' '
+'Building file: ../Startup_Code/newlib_stubs.c'
+'Invoking: ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -std=c11 -c -fmessage-length=0 -MT"Startup_Code/newlib_stubs.o" -MMD -MP -MF"Startup_Code/newlib_stubs.d" -MT"Startup_Code/newlib_stubs.o"  -o "Startup_Code/newlib_stubs.o" ../Startup_Code/newlib_stubs.c
+'Finished building: ../Startup_Code/newlib_stubs.c'
+' '
+'Building file: ../Startup_Code/rtc.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Startup_Code/rtc.o" -MMD -MP -MF"Startup_Code/rtc.d" -MT"Startup_Code/rtc.o"  -o "Startup_Code/rtc.o" ../Startup_Code/rtc.cpp
+'Finished building: ../Startup_Code/rtc.cpp'
+' '
+'Building file: ../Startup_Code/security.c'
+'Invoking: ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -std=c11 -c -fmessage-length=0 -MT"Startup_Code/security.o" -MMD -MP -MF"Startup_Code/security.d" -MT"Startup_Code/security.o"  -o "Startup_Code/security.o" ../Startup_Code/security.c
+'Finished building: ../Startup_Code/security.c'
+' '
+'Building file: ../Startup_Code/startup_ARMLtdGCC.S'
+'Invoking: ARM Assembler'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -Wall -Wextra -x assembler-with-cpp -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -Wall -Wextra -c -fmessage-length=0  -o "Startup_Code/startup_ARMLtdGCC.o" ../Startup_Code/startup_ARMLtdGCC.S
+'Finished building: ../Startup_Code/startup_ARMLtdGCC.S'
+' '
+'Building file: ../Startup_Code/system-gcc.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Startup_Code/system-gcc.o" -MMD -MP -MF"Startup_Code/system-gcc.d" -MT"Startup_Code/system-gcc.o"  -o "Startup_Code/system-gcc.o" ../Startup_Code/system-gcc.cpp
+'Finished building: ../Startup_Code/system-gcc.cpp'
+' '
+'Building file: ../Startup_Code/system.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Startup_Code/system.o" -MMD -MP -MF"Startup_Code/system.d" -MT"Startup_Code/system.o"  -o "Startup_Code/system.o" ../Startup_Code/system.cpp
+'Finished building: ../Startup_Code/system.cpp'
+' '
+'Building file: ../Startup_Code/vectors.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Startup_Code/vectors.o" -MMD -MP -MF"Startup_Code/vectors.d" -MT"Startup_Code/vectors.o"  -o "Startup_Code/vectors.o" ../Startup_Code/vectors.cpp
+'Finished building: ../Startup_Code/vectors.cpp'
+' '
+'Building file: ../Sources/delay.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/delay.o" -MMD -MP -MF"Sources/delay.d" -MT"Sources/delay.o"  -o "Sources/delay.o" ../Sources/delay.cpp
+'Finished building: ../Sources/delay.cpp'
+' '
+'Building file: ../Sources/ftfl.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/ftfl.o" -MMD -MP -MF"Sources/ftfl.d" -MT"Sources/ftfl.o"  -o "Sources/ftfl.o" ../Sources/ftfl.cpp
+'Finished building: ../Sources/ftfl.cpp'
+' '
+'Building file: ../Sources/hardware.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/hardware.o" -MMD -MP -MF"Sources/hardware.d" -MT"Sources/hardware.o"  -o "Sources/hardware.o" ../Sources/hardware.cpp
+'Finished building: ../Sources/hardware.cpp'
+' '
+'Building file: ../Sources/i2c.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/i2c.o" -MMD -MP -MF"Sources/i2c.d" -MT"Sources/i2c.o"  -o "Sources/i2c.o" ../Sources/i2c.cpp
+'Finished building: ../Sources/i2c.cpp'
+' '
+'Building file: ../Sources/mma845x-example.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mma845x-example.o" -MMD -MP -MF"Sources/mma845x-example.d" -MT"Sources/mma845x-example.o"  -o "Sources/mma845x-example.o" ../Sources/mma845x-example.cpp
+'Finished building: ../Sources/mma845x-example.cpp'
+' '
+'Building file: ../Sources/mma845x.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mma845x.o" -MMD -MP -MF"Sources/mma845x.d" -MT"Sources/mma845x.o"  -o "Sources/mma845x.o" ../Sources/mma845x.cpp
+'Finished building: ../Sources/mma845x.cpp'
+' '
+'Building file: ../Sources/spi.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/spi.o" -MMD -MP -MF"Sources/spi.d" -MT"Sources/spi.o"  -o "Sources/spi.o" ../Sources/spi.cpp
+'Finished building: ../Sources/spi.cpp'
+' '
+'Building file: ../Sources/usbdmError.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/usbdmError.o" -MMD -MP -MF"Sources/usbdmError.d" -MT"Sources/usbdmError.o"  -o "Sources/usbdmError.o" ../Sources/usbdmError.cpp
+'Finished building: ../Sources/usbdmError.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/mma845x-example.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+17:10:19 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+17:39:31 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+17:41:08 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+17:43:53 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+17:46:40 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/i2c-example.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/i2c-example.o" -MMD -MP -MF"Sources/i2c-example.d" -MT"Sources/i2c-example.o"  -o "Sources/i2c-example.o" ../Sources/i2c-example.cpp
+'Finished building: ../Sources/i2c-example.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c-example.o ./Sources/i2c.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+17:46:49 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+19:25:18 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+In file included from ../Sources/mcpio.cpp:9:
+../Sources/mcpio.h:11:1: error: a storage class can only be specified for objects and functions
+ static const enum RegisterAddress
+ ^~~~~~
+../Sources/mcpio.cpp: In function 'void SetDirection(unsigned int)':
+../Sources/mcpio.cpp:28:51: warning: narrowing conversion of 'direction' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  static const uint8_t txData[] = {IODIR, direction};
+                                                   ^
+../Sources/mcpio.cpp: In function 'void WritePins(RegisterAddress, unsigned int)':
+../Sources/mcpio.cpp:76:35: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {ADDRESS, data};
+                                   ^
+usbdm-make: *** [Sources/mcpio.o] Error 1
+"C:/Program Files (x86)/pgo/USBDM 4.12.1.262/usbdm-make all" terminated with exit code 2. Build might be incomplete.
+19:26:07 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+In file included from ../Sources/mcpio.cpp:9:
+../Sources/mcpio.h:11:1: error: a storage class can only be specified for objects and functions
+ static const enum RegisterAddress
+ ^~~~~~
+../Sources/mcpio.cpp: In function 'void SetDirection(unsigned int)':
+../Sources/mcpio.cpp:28:51: warning: narrowing conversion of 'direction' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  static const uint8_t txData[] = {IODIR, direction};
+                                                   ^
+../Sources/mcpio.cpp: In function 'void WritePins(RegisterAddress, unsigned int)':
+../Sources/mcpio.cpp:76:35: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {ADDRESS, data};
+                                   ^
+usbdm-make: *** [Sources/mcpio.o] Error 1
+"C:/Program Files (x86)/pgo/USBDM 4.12.1.262/usbdm-make all" terminated with exit code 2. Build might be incomplete.
+19:26:12 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+In file included from ../Sources/mcpio.cpp:9:
+../Sources/mcpio.h:11:1: error: 'const' can only be specified for objects and functions
+ const enum RegisterAddress
+ ^~~~~
+../Sources/mcpio.cpp: In function 'void SetDirection(unsigned int)':
+../Sources/mcpio.cpp:28:51: warning: narrowing conversion of 'direction' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  static const uint8_t txData[] = {IODIR, direction};
+                                                   ^
+../Sources/mcpio.cpp: In function 'void WritePins(RegisterAddress, unsigned int)':
+../Sources/mcpio.cpp:76:35: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {ADDRESS, data};
+                                   ^
+usbdm-make: *** [Sources/mcpio.o] Error 1
+"C:/Program Files (x86)/pgo/USBDM 4.12.1.262/usbdm-make all" terminated with exit code 2. Build might be incomplete.
+19:26:19 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+In file included from ../Sources/mcpio.cpp:9:
+../Sources/mcpio.h:11:1: error: 'const' can only be specified for objects and functions
+ const enum RegisterAddress
+ ^~~~~
+../Sources/mcpio.cpp: In function 'void SetDirection(unsigned int)':
+../Sources/mcpio.cpp:28:51: warning: narrowing conversion of 'direction' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  static const uint8_t txData[] = {IODIR, direction};
+                                                   ^
+../Sources/mcpio.cpp: In function 'void WritePins(RegisterAddress, unsigned int)':
+../Sources/mcpio.cpp:76:35: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {ADDRESS, data};
+                                   ^
+usbdm-make: *** [Sources/mcpio.o] Error 1
+"C:/Program Files (x86)/pgo/USBDM 4.12.1.262/usbdm-make all" terminated with exit code 2. Build might be incomplete.
+19:26:52 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void SetDirection(unsigned int)':
+../Sources/mcpio.cpp:28:51: warning: narrowing conversion of 'direction' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  static const uint8_t txData[] = {IODIR, direction};
+                                                   ^
+../Sources/mcpio.cpp: In function 'void WritePins(RegisterAddress, unsigned int)':
+../Sources/mcpio.cpp:76:35: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {ADDRESS, data};
+                                   ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building file: ../Sources/mma845x-example.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mma845x-example.o" -MMD -MP -MF"Sources/mma845x-example.d" -MT"Sources/mma845x-example.o"  -o "Sources/mma845x-example.o" ../Sources/mma845x-example.cpp
+'Finished building: ../Sources/mma845x-example.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/mcpio.o ./Sources/mma845x-example.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+19:27:01 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+19:27:04 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+In file included from ../Sources/mcpio.cpp:9:
+../Sources/mcpio.h:10:1: error: a storage class can only be specified for objects and functions
+ static enum RegisterAddress{
+ ^~~~~~
+../Sources/mcpio.cpp: In function 'void SetDirection(unsigned int)':
+../Sources/mcpio.cpp:28:51: warning: narrowing conversion of 'direction' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  static const uint8_t txData[] = {IODIR, direction};
+                                                   ^
+../Sources/mcpio.cpp: In function 'void WritePins(RegisterAddress, unsigned int)':
+../Sources/mcpio.cpp:76:35: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {ADDRESS, data};
+                                   ^
+usbdm-make: *** [Sources/mcpio.o] Error 1
+"C:/Program Files (x86)/pgo/USBDM 4.12.1.262/usbdm-make all" terminated with exit code 2. Build might be incomplete.
+19:27:40 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void SetDirection(unsigned int)':
+../Sources/mcpio.cpp:28:51: warning: narrowing conversion of 'direction' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  static const uint8_t txData[] = {IODIR, direction};
+                                                   ^
+../Sources/mcpio.cpp: In function 'void WritePins(RegisterAddress, unsigned int)':
+../Sources/mcpio.cpp:76:35: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {ADDRESS, data};
+                                   ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/mcpio.o ./Sources/mma845x-example.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+22:46:08 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void SetDirection(unsigned int)':
+../Sources/mcpio.cpp:29:51: warning: narrowing conversion of 'direction' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  static const uint8_t txData[] = {IODIR, direction};
+                                                   ^
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x-example.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: ./Sources/mma845x-example.o:C:\Users\USER\OneDrive - Swinburne University\SEM 5\EEE20003\Labs\Lab 5\lab5\Debug/../Sources/mma845x-example.cpp:27: multiple definition of `i2c0'; ./Sources/main.o:C:\Users\USER\OneDrive - Swinburne University\SEM 5\EEE20003\Labs\Lab 5\lab5\Debug/../Sources/main.cpp:25: first defined here
+c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: ./Sources/mma845x-example.o:C:\Users\USER\OneDrive - Swinburne University\SEM 5\EEE20003\Labs\Lab 5\lab5\Debug/../Sources/mma845x-example.cpp:30: multiple definition of `accelerometer'; ./Sources/main.o:C:\Users\USER\OneDrive - Swinburne University\SEM 5\EEE20003\Labs\Lab 5\lab5\Debug/../Sources/main.cpp:28: first defined here
+c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: ./Sources/mma845x-example.o: in function `report(USBDM::MMA845x&)':
+C:\Users\USER\OneDrive - Swinburne University\SEM 5\EEE20003\Labs\Lab 5\lab5\Debug/../Sources/mma845x-example.cpp:39: multiple definition of `report(USBDM::MMA845x&)'; ./Sources/main.o:C:\Users\USER\OneDrive - Swinburne University\SEM 5\EEE20003\Labs\Lab 5\lab5\Debug/../Sources/main.cpp:61: first defined here
+c:/program files (x86)/eclipse foundation/eclipse cdt/gnu tools arm embedded/8 2018-q4-major/bin/../lib/gcc/arm-none-eabi/8.2.1/../../../../arm-none-eabi/bin/ld.exe: ./Sources/mma845x-example.o: in function `main':
+C:\Users\USER\OneDrive - Swinburne University\SEM 5\EEE20003\Labs\Lab 5\lab5\Debug/../Sources/mma845x-example.cpp:52: multiple definition of `main'; ./Sources/main.o:C:\Users\USER\OneDrive - Swinburne University\SEM 5\EEE20003\Labs\Lab 5\lab5\Debug/../Sources/main.cpp:73: first defined here
+collect2.exe: error: ld returned 1 exit status
+usbdm-make: *** [lab5.elf] Error 1
+"C:/Program Files (x86)/pgo/USBDM 4.12.1.262/usbdm-make all" terminated with exit code 2. Build might be incomplete.
+22:46:54 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+15:51:38 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/asdf.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/asdf.o" -MMD -MP -MF"Sources/asdf.d" -MT"Sources/asdf.o"  -o "Sources/asdf.o" ../Sources/asdf.cpp
+'Finished building: ../Sources/asdf.cpp'
+' '
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/asdf.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+15:52:21 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+15:53:21 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void SetDirection(unsigned int)':
+../Sources/mcpio.cpp:29:51: warning: narrowing conversion of 'direction' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  static const uint8_t txData[] = {IODIR, direction};
+                                                   ^
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+15:54:07 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:01:00 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:02:31 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:04:02 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:07:41 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:23: error: expected primary-expression before ',' token
+  uint8_t txData[] = { , data};
+                       ^
+usbdm-make: *** [Sources/mcpio.o] Error 1
+"C:/Program Files (x86)/pgo/USBDM 4.12.1.262/usbdm-make all" terminated with exit code 2. Build might be incomplete.
+16:07:51 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:15:12 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:18:28 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:18:36 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:19:03 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:19:34 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:20:13 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:20:39 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:21:36 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:22:34 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:22:51 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:28:15 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:37:19 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:37:50 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:38:39 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:39:18 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:41:26 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:41:45 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:41:50 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+16:42:07 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:42:47 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:44:08 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int main()':
+../Sources/main.cpp:97:8: warning: unused variable 'score' [-Wunused-variable]
+    int score = 0;
+        ^~~~~
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:46:02 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+../Sources/mcpio.cpp:79:9: warning: comparison of unsigned expression < 0 is always false [-Wtype-limits]
+  if(data<0x00 || data > 0xFF){
+     ~~~~^~~~~
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:50:05 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+16:58:20 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building file: ../Sources/mcpio.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/mcpio.o" -MMD -MP -MF"Sources/mcpio.d" -MT"Sources/mcpio.o"  -o "Sources/mcpio.o" ../Sources/mcpio.cpp
+../Sources/mcpio.cpp: In function 'void WritePin(unsigned int)':
+../Sources/mcpio.cpp:77:32: warning: narrowing conversion of 'data' from 'unsigned int' to 'uint8_t' {aka 'unsigned char'} inside { } [-Wnarrowing]
+  uint8_t txData[] = {GPIO, data};
+                                ^
+'Finished building: ../Sources/mcpio.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+12:35:32 **** Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+12:36:32 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+12:36:33 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+12:36:38 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+12:36:40 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+12:38:15 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+12:38:43 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+12:43:18 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+12:44:54 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+12:49:16 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+12:49:52 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+12:53:08 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+12:57:26 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+12:58:14 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:14:05 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+'Finished building: ../Sources/PITlab5.cpp'
+' '
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int scores(unsigned int)':
+../Sources/main.cpp:72:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:14:15 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+13:15:00 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+'Finished building: ../Sources/PITlab5.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:17:57 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+../Sources/PITlab5.cpp: In function 'void SpeedAdvance(unsigned int)':
+../Sources/PITlab5.cpp:28:28: warning: unused parameter 'score' [-Wunused-parameter]
+ void SpeedAdvance(unsigned score)
+                   ~~~~~~~~~^~~~~
+'Finished building: ../Sources/PITlab5.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:20:11 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+'Finished building: ../Sources/PITlab5.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:20:51 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+'Finished building: ../Sources/PITlab5.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:21:37 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int scores(unsigned int)':
+../Sources/main.cpp:72:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:23:33 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+../Sources/PITlab5.cpp: In function 'void SpeedAdvance(unsigned int)':
+../Sources/PITlab5.cpp:38:42: error: expected ';' before ')' token
+    console.writeln("LVL UP!!! NOW LVL 2"));
+                                          ^
+                                          ;
+../Sources/PITlab5.cpp:41:48: error: expected ';' before ')' token
+          console.writeln("LVL UP!!! NOW LVL 3"));
+                                                ^
+                                                ;
+../Sources/PITlab5.cpp:44:48: error: expected ';' before ')' token
+          console.writeln("LVL UP!!! NOW LVL 4"));
+                                                ^
+                                                ;
+../Sources/PITlab5.cpp:47:52: error: expected ';' before ')' token
+          console.writeln("LVL UP!!! MAXIMUM SPEED"));
+                                                    ^
+                                                    ;
+../Sources/PITlab5.cpp:50:52: error: expected ';' before ')' token
+          console.writeln("LVL UP!!! MAXIMUM SPEED"));
+                                                    ^
+                                                    ;
+usbdm-make: *** [Sources/PITlab5.o] Error 1
+"C:/Program Files (x86)/pgo/USBDM 4.12.1.262/usbdm-make all" terminated with exit code 2. Build might be incomplete.
+13:24:07 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+'Finished building: ../Sources/PITlab5.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:24:52 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+'Finished building: ../Sources/PITlab5.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:26:05 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int scores(unsigned int)':
+../Sources/main.cpp:72:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:26:13 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+../Sources/main.cpp: In function 'int scores(unsigned int)':
+../Sources/main.cpp:72:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:27:49 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+'Finished building: ../Sources/PITlab5.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:29:52 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+'Building file: ../Sources/PITlab5.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/PITlab5.o" -MMD -MP -MF"Sources/PITlab5.d" -MT"Sources/PITlab5.o"  -o "Sources/PITlab5.o" ../Sources/PITlab5.cpp
+'Finished building: ../Sources/PITlab5.cpp'
+' '
+'Building file: ../Sources/main.cpp'
+'Invoking: ARM C++ Compiler'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -ffunction-sections -fdata-sections -fno-rtti -Wall -Wextra -DDEBUG_BUILD -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Sources" -I"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Headers" -fno-exceptions -std=gnu++17 -c -fmessage-length=0 -MT"Sources/main.o" -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o"  -o "Sources/main.o" ../Sources/main.cpp
+'Finished building: ../Sources/main.cpp'
+' '
+'Building target: lab5.elf'
+'Invoking: ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -g3 -O0 -Wl,--gc-sections -L"C:/Users/USER/OneDrive - Swinburne University/SEM 5/EEE20003/Labs/Lab 5/lab5/Project_Settings/Linker_Files" --specs=nano.specs -T "Linker-rom.ld" -Xlinker -Map="lab5.map"  -o "lab5.elf"  ./Startup_Code/console.o ./Startup_Code/mcg.o ./Startup_Code/newlib_stubs.o ./Startup_Code/rtc.o ./Startup_Code/security.o ./Startup_Code/startup_ARMLtdGCC.o ./Startup_Code/system-gcc.o ./Startup_Code/system.o ./Startup_Code/vectors.o  ./Sources/PITlab5.o ./Sources/delay.o ./Sources/ftfl.o ./Sources/hardware.o ./Sources/i2c.o ./Sources/main.o ./Sources/mcpio.o ./Sources/mma845x.o ./Sources/spi.o ./Sources/usbdmError.o   
+'Finished building target: lab5.elf'
+' '
+'Invoking: ARM Sizer'
+arm-none-eabi-size "lab5.elf" --format=sysv --radix=10   >"lab5.size"
+'Finished building: lab5.size'
+' '
+'Invoking: ARM Symbol Table'
+arm-none-eabi-nm "lab5.elf" --demangle --defined-only --extern-only --numeric-sort   >"lab5.sym"
+'Finished building: lab5.sym'
+' '
+13:37:10 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.
+13:50:45 **** Incremental Build of configuration Debug for project lab5 ****
+"C:\\Program Files (x86)\\pgo\\USBDM 4.12.1.262\\usbdm-make" all 
+usbdm-make: Nothing to be done for `all'.

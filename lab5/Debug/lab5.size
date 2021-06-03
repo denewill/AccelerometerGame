@@ -1,0 +1,29 @@
+lab5.elf  :
+section              size        addr
+.interrupts          1040           0
+.text               16660        1040
+.ARM.exidx              8       17700
+.flash                  0       17708
+.mtb                    0   536862720
+.interrupts_ram         0   536862720
+.data                 180   536862720
+.noinit                 0   536862900
+.bss                  196   536862900
+.heap                4096   536863096
+.stack               8192   536870912
+.flexRAM                0   335544320
+.flexNVM                0   268435456
+.bitband           262144   570425344
+.ARM.attributes        42           0
+.comment              117           0
+.debug_info        759173           0
+.debug_abbrev       34970           0
+.debug_aranges       2504           0
+.debug_ranges        2240           0
+.debug_macro        74953           0
+.debug_line         49329           0
+.debug_str         376164           0
+.debug_frame        11080           0
+Total             1603088
+
+
